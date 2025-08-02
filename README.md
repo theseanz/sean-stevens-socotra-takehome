@@ -1,3 +1,5 @@
+# Sean Stevens Take Home Exercise
+
 ## Frameworks/Tools
 
 - **React 19** - UI framework
