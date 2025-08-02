@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* I could not get this to work - ended up having to add 
+different tailwind everywhere */
+@theme {
+    --color-blue-600: oklch(54.6% 0.245 262.881);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --radius-lg: 0.5rem;
+    --radius: .5rem;
+    --background: 0 0% 98%;
+    --foreground: 210 12% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 12% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 12% 16%;
+    --primary: 208 100% 47%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 208 100% 42%;
+    --secondary: 210 17% 95%;
+    --secondary-foreground: 210 12% 16%;
+    --muted: 210 17% 95%;
+    --muted-foreground: 210 10% 52%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 208 100% 47%;
+    --success: 142 76% 36%;
+    --warning: 45 93% 47%;
+    --info: 208 100% 47%;
+    --gradient-primary: linear-gradient(135deg, hsl(208 100% 47%), hsl(208 100% 42%));
+    --gradient-hero: linear-gradient(135deg, hsl(208 100% 47%) 0%, hsl(142 76% 36%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 17% 98%) 100%);
+    --shadow-card: 0 4px 6px -1px hsl(210 20% 90% / .1), 0 2px 4px -1px hsl(210 20% 90% / .06);
+    --shadow-elevated: 0 10px 15px -3px hsl(210 20% 90% / .1), 0 4px 6px -2px hsl(210 20% 90% / .05);
+    --radius: .5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+}
