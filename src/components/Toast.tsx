@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface ToastProps {
   show: boolean;
@@ -9,13 +9,13 @@ interface ToastProps {
   key?: string | number; // Add key prop to force re-render
 }
 
-const Toast: React.FC<ToastProps> = ({
+const Toast = ({
   show,
   onClose,
   title = 'Progress Saved',
   message = 'Your information has been saved. Continue to the next step.',
   duration = 3000,
-}) => {
+}: ToastProps) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

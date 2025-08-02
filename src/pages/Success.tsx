@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Success: React.FC = () => (
+const Success = () => (
   <div
     className='min-h-screen flex items-center justify-center p-4'
     style={{ backgroundColor: 'hsl(0, 0%, 98%)' }}

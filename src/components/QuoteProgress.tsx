@@ -1,4 +1,3 @@
-import React from 'react';
 import { STEP_NAMES } from '../constants/steps';
 
 interface QuoteProgressProps {
@@ -6,10 +5,7 @@ interface QuoteProgressProps {
   totalSteps: number;
 }
 
-const QuoteProgress: React.FC<QuoteProgressProps> = ({
-  currentStep,
-  totalSteps,
-}) => {
+const QuoteProgress = ({ currentStep, totalSteps }: QuoteProgressProps) => {
   return (
     <div className='bg-white rounded-lg border border-gray-200 p-6 shadow-sm'>
       <div className='flex items-center justify-between mb-6'>
